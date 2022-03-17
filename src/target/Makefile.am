@@ -43,7 +43,8 @@ TARGET_CORE_SRC = \
 	%D%/testee.c \
 	%D%/semihosting_common.c \
 	%D%/smp.c \
-	%D%/rtt.c
+	%D%/rtt.c \
+	%D%/xtensa-lx106.c
 
 ARMV4_5_SRC = \
 	%D%/armv4_5.c \
@@ -256,7 +257,8 @@ ARC_SRC = \
 	%D%/arc_cmd.h \
 	%D%/arc_jtag.h \
 	%D%/arc_mem.h \
-	%D%/rtt.h
+	%D%/rtt.h \
+	%D%/xtensa-lx106.h
 
 include %D%/openrisc/Makefile.am
 include %D%/riscv/Makefile.am
